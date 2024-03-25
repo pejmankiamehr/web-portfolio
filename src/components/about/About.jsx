@@ -33,7 +33,7 @@ const About = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col>
+            {/* <Col>
               <Card className=" text-white">
                 <Card.Body>
                   <Card.Title className="iconcard">
@@ -43,7 +43,7 @@ const About = () => {
                   <Card.Text className="textcard">200+ worldwide</Card.Text>
                 </Card.Body>
               </Card>
-            </Col>
+            </Col> */}
             <Col>
               <Card className=" text-white">
                 <Card.Body>
@@ -55,16 +55,17 @@ const About = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Stack>
-              <p className=" text-md-start">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis excepturi nobis veniam mollitia labore repudiandae necessitatibus perferendis delectus ipsum reiciendis eveniet libero
-                consectetur atque ex magni, facere dolores sapiente corrupti.
-              </p>
-              <Nav className=" justify-content-center justify-content-md-start mt-3">
-                <NavLink className="btn-sm btn-primary rounded-2">Let's Talk</NavLink>
-              </Nav>
-            </Stack>
           </Row>
+          <Stack className=" mt-4">
+            <p className=" text-md-start">
+              Experienced React Developer with over 1 year of experience in designing and building organizational panels as well as developing websites, primarily focusing on front-end development.
+              Currently seeking an opportunity with an active and dynamic company to contribute to project development and further enhance personal skills. Strong preference for being part of a team
+              with multiple front-end developers.
+            </p>
+            <Nav className=" justify-content-center justify-content-md-start mt-3">
+              <NavLink href="#contact" className="btn-sm btn-primary rounded-2">Let's Talk</NavLink>
+            </Nav>
+          </Stack>
         </Col>
       </Row>
     </Container>

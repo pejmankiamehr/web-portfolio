@@ -20,7 +20,7 @@ const Footer = () => {
         <Col>
           <Navbar className=" justify-content-center navfooter" data-bs-theme="dark">
             <Nav className=" flex-column flex-md-row justify-content-center">
-              <NavLink href="#">Home</NavLink>
+              <NavLink href="#header">Home</NavLink>
               <NavLink href="#about">About</NavLink>
               <NavLink href="#experience">Experience</NavLink>
               <NavLink href="#services">Services</NavLink>
@@ -31,13 +31,13 @@ const Footer = () => {
         </Col>
         <Col className=" mb-5">
           <Nav className=" justify-content-center">
-            <NavLink href="https://linkedin.com" target="_blank" className=" rounded iconfooter">
+            <NavLink  className=" rounded iconfooter">
               <FaFacebookF />
             </NavLink>
-            <NavLink href="https://github.com" target="_blank" className=" rounded iconfooter">
+            <NavLink className=" rounded iconfooter">
               <FaInstagram />
             </NavLink>
-            <NavLink href="https://dribbble.com" target="_blank" className=" rounded iconfooter">
+            <NavLink className=" rounded iconfooter">
               <FaTwitter />
             </NavLink>
           </Nav>

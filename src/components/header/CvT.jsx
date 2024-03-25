@@ -10,7 +10,7 @@ function CvT() {
         <NavLink target="_blank" href="/images/certificate.jpg" className="btn">
           Certificate
         </NavLink>
-        <NavLink className="btn btn-primary">Let's Talk</NavLink>
+        <NavLink href="#contact" className="btn btn-primary">Let's Talk</NavLink>
       </Nav>
     </>
   );
