@@ -27,7 +27,7 @@ const Workexperience = () => {
           >
             <SwiperSlide>
               <Card className="text-white">
-                <Card.Img variant="top" src="/images/Eight.png" className=" object-fit-contain avatar" />
+                <Card.Img variant="top" src="/icon/Eight.png" className=" object-fit-contain avatar" />
                 <Card.Body>
                   <Card.Title>React js Developer</Card.Title>
                   <Card.Subtitle className="mb-4  subtext">
@@ -40,7 +40,7 @@ const Workexperience = () => {
             </SwiperSlide>
             <SwiperSlide>
               <Card className="text-center text-white">
-                <Card.Img variant="top" src="/images/yektamana.png" className="avatar" />
+                <Card.Img variant="top" src="/icon/yektamana.png" className="avatar" />
                 <Card.Body>
                   <Card.Title>Websaite Admin</Card.Title>
                   <Card.Subtitle className="mb-4  subtext">
@@ -52,7 +52,7 @@ const Workexperience = () => {
             </SwiperSlide>
             <SwiperSlide>
               <Card className="text-center text-white">
-                <Card.Img variant="top" src="/images/yektamana.png" className="avatar" />
+                <Card.Img variant="top" src="/icon/yektamana.png" className="avatar" />
                 <Card.Body>
                   <Card.Title>Content production specialist</Card.Title>
                   <Card.Subtitle className="mb-4  subtext">

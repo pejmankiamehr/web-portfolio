@@ -13,7 +13,7 @@ function Header() {
       </Stack>
       <CvT />
       <Row xs={1} md={3} lg={3}>
-        <Col  className=" d-none d-md-flex text-center"  md={1}>
+        <Col  className=" d-none d-md-flex text-center bottom-0"  md={1}>
           <HeaderSocials />
         </Col>
         <Col xs={12} md={10}>
@@ -22,7 +22,7 @@ function Header() {
           </Stack>
         </Col>
 
-        <Col className=" d-none d-md-inline-flex text-center  "   md={1}>
+        <Col className=" d-none d-md-inline-flex text-center "   md={1}>
           <NavLink href="#contact" className={styles.scroldown}>
             Scroll Down
           </NavLink>

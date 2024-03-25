@@ -33,7 +33,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #1f1f38;
   color: #ffffff;
-  background-image: url(/images/bg-texture.png);
+  background-image: url(/icon/bg-texture.png);
   line-height: 1.7;
   
 }

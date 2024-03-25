@@ -11,11 +11,12 @@ const Footer = () => {
       <Row xs={1} lg={1} className=" gap-5 py-5 justify-content-center ">
         <Col xs={3} lg={1}>
           <Stack className="boxlogo">
-            <Image src="/public/images/logo.png" />
+            <Image src="/images/logo.png" />
           </Stack>
         </Col>
         <Col>
           <h1 className="textname">Pejman Kiamehr</h1>
+          <h1 className="textname">پژمان کیامهر</h1>
         </Col>
         <Col>
           <Navbar className=" justify-content-center navfooter" data-bs-theme="dark">
@@ -31,7 +32,7 @@ const Footer = () => {
         </Col>
         <Col className=" mb-5">
           <Nav className=" justify-content-center">
-            <NavLink  className=" rounded iconfooter">
+            <NavLink className=" rounded iconfooter">
               <FaFacebookF />
             </NavLink>
             <NavLink className=" rounded iconfooter">
